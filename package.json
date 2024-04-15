@@ -1,0 +1,28 @@
+{
+  "name": "the_cart_never_ends",
+  "version": "1.0.0",
+  "description": "Using the function built in the previous nights homework as a starting point, you are task with designing an OOP System to create a Shop with Users that can buy Items.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npm run bundle && npm-run-all --parallel watch serve",
+    "bundle": "webpack",
+    "watch": "webpack --watch",
+    "serve": "cd dist && live-server",
+    "build": "webpack --mode production"
+  },
+  "author": "Rajan S",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/uuid": "^9.0.8",
+    "npm-run-all": "^4.1.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "uuid": "^9.0.1"
+  },
+  "keywords": []
+}
